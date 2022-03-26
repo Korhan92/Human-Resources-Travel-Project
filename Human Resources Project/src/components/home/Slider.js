@@ -1,5 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import React, { Component } from "react";
+import './Slider.css'
 
 export default class Slider extends Component {
   render() {
@@ -27,7 +28,7 @@ export default class Slider extends Component {
           />
           <Carousel.Caption>
           <div className="wrapSliderSlogan">
-          <h1>Chauffeured Car Rental & VIP Transportation</h1>
+          <h3>Chauffeured Car Rental & VIP Transportation</h3>
             <span className="fs-1">Vip Transport is one of our personalized services that our company organizes for you. </span>
             </div>
           </Carousel.Caption>

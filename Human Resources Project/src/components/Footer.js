@@ -35,11 +35,7 @@ function Footer() {
                         <Link to='/'>Influencer</Link>
                     </div>
                     <div class='footer-link-items'>
-                        <Link to='/'><FaInstagram/></Link>
-                        <Link to='/'><FaFacebook/></Link>
-                        <Link to='/'><FaYoutube/></Link>
-                        <Link to='/'><FaTwitter/></Link>
-                        <Link to='/'><FaTiktok/></Link>
+                        
                     </div>
                 </div>
             </div>
@@ -51,57 +47,15 @@ function Footer() {
                             <i class='fab fa-typo3' />
                         </Link>
                     </div>
-                    <small class='website-rights'>TripAdvisor © 2022</small>
+                   
                     <div class='social-icons'>
-                        <Link
-                            class='social-icon-link facebook'
-                            to='/'
-                            target='_blank'
-                            aria-label='Facebook'
-                        >
-                            <i class='fab fa-facebook-f' />
-                        </Link>
-                        <Link
-                            class='social-icon-link instagram'
-                            to='/'
-                            target='_blank'
-                            aria-label='Instagram'
-                        >
-                            <i class='fab fa-instagram' />
-                        </Link>
-                        <Link
-                            class='social-icon-link youtube'
-                            to='/'
-                            target='_blank'
-                            aria-label='Youtube'
-                        >
-                            <i class='fab fa-youtube' />
-                        </Link>
-                        <Link
-                            class='social-icon-link twitter'
-                            to='/'
-                            target='_blank'
-                            aria-label='Twitter'
-                        >
-                            <i class='fab fa-twitter' />
-                        </Link>
-                        <Link
-                            class='social-icon-link twitter'
-                            to='/'
-                            target='_blank'
-                            aria-label='LinkedIn'
-                        >
-                            <i class='fab fa-linkedin' />
-                        </Link>
-                        <Link
-                            class='social-icon-link tiktok'
-                            to='/'
-                            target='_blank'
-                            aria-label='tiktok'
-                        >
-                            <i class='fab fa-tiktok' />
-                        </Link>
-                    </div>
+                    <Link to='/'><FaInstagram/></Link>
+                        <Link to='/'><FaFacebook/></Link>
+                        <Link to='/'><FaYoutube/></Link>
+                        <Link to='/'><FaTwitter/></Link>
+                        <Link to='/'><FaTiktok/></Link>
+                    </div>  
+                     <small class='website-rights'>TripAdvisor © 2022</small>
                 </div>
             </section>
         </div>
